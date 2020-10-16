@@ -10,6 +10,7 @@ import { MessagesComponent } from './messages/messages.component';
 
 import { AppRoutingModule } from './app-routing.module';
 import { NavbarComponent } from './navbar/navbar.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   imports: [
@@ -23,7 +24,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
-    NavbarComponent
+    NavbarComponent,
+    AboutComponent
   ],
   bootstrap: [ AppComponent ]
 })
