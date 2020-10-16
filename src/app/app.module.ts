@@ -12,6 +12,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AboutComponent } from './about/about.component';
 import { UeberMichComponent } from './ueber-mich/ueber-mich.component';
+import { PreisAngabeComponent } from './preis-angabe/preis-angabe.component';
 
 @NgModule({
   imports: [
@@ -26,7 +27,8 @@ import { UeberMichComponent } from './ueber-mich/ueber-mich.component';
     HeroDetailComponent,
     MessagesComponent,
     NavbarComponent,
-    AboutComponent
+    AboutComponent,
+    PreisAngabeComponent
   ],
   bootstrap: [ AppComponent ]
 })

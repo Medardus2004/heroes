@@ -6,7 +6,7 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 import { AboutComponent } from './about/about.component';
 import { UeberMichComponent} from "./ueber-mich/ueber-mich.component";
-
+import{PreisAngabeComponent} from "./preis-angabe/preis-angabe.component";
 
 const routes: Routes = [
   { path: '', redirectTo: '/angebot', pathMatch: 'full' },
@@ -14,7 +14,8 @@ const routes: Routes = [
   { path: 'angebot', component: DashboardComponent },
   { path: 'kontakt', component: AboutComponent },
   { path: 'detail/:id', component: HeroDetailComponent },
-  { path: 'preise', component: HeroesComponent }
+  { path: 'preise', component: HeroesComponent },
+  { path: 'preis-angabe/:id', component: PreisAngabeComponent }
 ];
 
 @NgModule({
