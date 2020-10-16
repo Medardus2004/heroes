@@ -26,8 +26,7 @@ import { UeberMichComponent } from './ueber-mich/ueber-mich.component';
     HeroDetailComponent,
     MessagesComponent,
     NavbarComponent,
-    AboutComponent,
-    UeberMichComponent
+    AboutComponent
   ],
   bootstrap: [ AppComponent ]
 })
