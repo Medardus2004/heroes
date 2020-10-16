@@ -1,6 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { HEROES } from '../mock-heroes';
-import{Hero} from "../hero";
+import { Component, OnInit , Input} from '@angular/core';
+import {Hero} from "../hero";
 
 @Component({
   selector: 'app-preis-angabe',
@@ -9,13 +8,9 @@ import{Hero} from "../hero";
 })
 export class PreisAngabeComponent implements OnInit {
 
-  heroes = HEROES;
+  @Input() tarif: Hero;
   constructor() { }
 
-  selectedHero: Hero;
-  onSelect(hero: Hero): void {
-    this.selectedHero = hero;
-  }
   ngOnInit(): void {
   }
 

@@ -5,7 +5,7 @@ export const HEROES: Hero[] = [
   { id: 12, name: 'Deutsch - Tschechisch', preis: 200  },
   { id: 13, name: 'Slowakisch - Deutsch' , preis: 300 },
   { id: 14, name: 'Deutsch - Slowakisch' , preis: 400 },
-  { id: 15, name: 'Verhandlungs-Dolmetschen' , preis: 500 },
+  { id: 15, name: 'Verhandlungsdolmetschen' , preis: 500 },
   { id: 16, name: 'Simultan - Dolmetschen' , preis: 600 },
   { id: 17, name: 'Flüster - Dolmetschen' , preis: 700 },
   { id: 18, name: 'Begleit - Dolmetschen' , preis: 800 },
