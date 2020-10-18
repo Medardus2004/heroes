@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "websitemithttpclient": {
+      "hosting": {
+        "angular-tour-of-heroes": [
+          "websitemithttpclient"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "websitemithttpclient"
+  }
+}
